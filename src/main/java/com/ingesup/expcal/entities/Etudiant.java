@@ -1,6 +1,7 @@
 package com.ingesup.expcal.entities;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.Date;
 
 public class Etudiant implements Serializable {
@@ -17,4 +18,5 @@ public class Etudiant implements Serializable {
 	private Date dateDernierModification;
 	private Long nbModification;
 	private Formation formation;
+	private Collection<Absence> absences;
 }
