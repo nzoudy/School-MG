@@ -2,7 +2,8 @@ package com.ingesup.expcal.entities;
 
 import java.io.Serializable;
 
-public class Professor implements Serializable {
+public class Professeur implements Serializable {
+	
 	private Long idProfessor;
 	private String professorName;
 	private String professorSurname;
@@ -11,6 +12,5 @@ public class Professor implements Serializable {
 	private String securitySocialNumber;
 	private String rib;
 	private byte[] diplome;
-	
 	
 }
